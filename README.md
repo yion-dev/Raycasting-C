@@ -3,6 +3,8 @@
 A small raycasting project written in C with SDL2, built to learn how
 Wolfenstein-style 3D rendering works.
 
+![Raycasting demo](demo/raycasting.gif)
+
 - Tile-based world map (24x24)
 - Player with position and rotating view direction
 - Field-of-view fan of rays using DDA grid traversal, so each ray stops
@@ -12,11 +14,14 @@ Wolfenstein-style 3D rendering works.
 
 ## Build & run
 
-    cmake -B build
-    cmake --build build -t run
+```bash
+cmake -B build
+cmake --build build -t run
+```
 
 Requires SDL2 and a C compiler.
 
 ## Controls
 
-W/A/S/D: move, Q/E: rotate
+- W/A/S/D: move
+- Q/E: rotate
