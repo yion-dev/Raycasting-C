@@ -3,7 +3,9 @@
 A small raycasting project written in C with SDL2, built to learn how
 Wolfenstein-style 3D rendering works.
 
-![Raycasting demo](demo/raycasting.gif)
+<p align="center">
+  <img src="demo/raycasting.gif" alt="Raycasting demo" width="400">
+</p>
 
 - Tile-based world map (24x24)
 - Player with position and rotating view direction
