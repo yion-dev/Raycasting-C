@@ -4,6 +4,7 @@ A small raycasting project written in C with SDL2, built to learn how
 Wolfenstein-style 3D rendering works.
 
 <p align="center">
+  <img src="demo/3d.gif" alt="Raycasting demo" width="400">
   <img src="demo/raycasting.gif" alt="Raycasting demo" width="400">
 </p>
 
